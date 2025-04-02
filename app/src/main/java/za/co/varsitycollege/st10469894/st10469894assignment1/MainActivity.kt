@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         val textview = findViewById<TextView>(R.id.textView2)
         val enter = findViewById<Button>(R.id.button2)
         val entertime = findViewById<EditText>(R.id.editTextText)
-        val food = findViewById<TextView>(R.id.textView)
+        val meals = findViewById<TextView>(R.id.textView)
 
         // the meals of the food menu
         val morning = listOf("scrambled eggs", "sausage", "cheese", "toast","waffles")
